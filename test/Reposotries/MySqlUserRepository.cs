@@ -49,7 +49,7 @@ public class MySqlUserRepository : IUserRepository
     {
         using (IDbConnection connection = new MySqlConnection(_connectionString))
         {
-           
+
             connection.Open();
             var query = @"DELETE FROM users WHERE id=@UserId";
             connection.Query<User>(query, new { UserId = UserId });

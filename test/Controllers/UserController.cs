@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 using test.Interfaces;
 using test.Models;
 
@@ -23,7 +24,7 @@ namespace test.Controllers
         {
             var user = new User()
             {
-               
+
                 Name = userDto.Name,
                 Email = userDto.Email,
                 Password = userDto.Password
@@ -34,7 +35,7 @@ namespace test.Controllers
         // Get
         [HttpGet]
         public ActionResult<IEnumerable<UserDto>> GetAllUsers() {
-            
+
             return repository.GetAllUsers().ToList().Select(user => user.AsDto()).ToList();
         }
         [HttpGet("{id}")]
@@ -44,12 +45,12 @@ namespace test.Controllers
         }
 
         //Put
-        [HttpPut]
-        public ActionResult<string> UpdatUser(CreateUserDto userDto)
+        [HttpPut("{userId}")]
+        public ActionResult<string> UpdatUser(CreateUserDto userDto, int userId)
         {
             var user = new User()
             {
-
+                Id=userId,
                 Name = userDto.Name,
                 Email = userDto.Email,
                 Password = userDto.Password
@@ -62,9 +63,10 @@ namespace test.Controllers
 
         //Delete
         [HttpDelete("{id}")]
-        public void DeleteUser (int id)
+        public ActionResult DeleteUser (int id)
         {
             repository.DeleteUser(id);
+            return Ok("User Updated Successfully"); ;
         }
 
 

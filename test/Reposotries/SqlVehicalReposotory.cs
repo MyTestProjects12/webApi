@@ -1,5 +1,6 @@
 ﻿using Catalog.Settings;
 using Dapper;
+using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 using test.Interfaces;
 using test.Models;
