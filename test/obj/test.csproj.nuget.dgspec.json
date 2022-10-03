@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\notes\\books\\.Net\\The Complete ASP.NET Core 3 API Tutorial Hands-On Building, Testing, and Deploying (Les Jackson) (z-lib.org)\\projects\\test\\test\\test.csproj": {}
+    "D:\\notes\\books\\.Net\\The Complete ASP.NET Core 3 API Tutorial Hands-On Building, Testing, and Deploying (Les Jackson) (z-lib.org)\\projects\\test\\webApi\\test\\test.csproj": {}
   },
   "projects": {
-    "D:\\notes\\books\\.Net\\The Complete ASP.NET Core 3 API Tutorial Hands-On Building, Testing, and Deploying (Les Jackson) (z-lib.org)\\projects\\test\\test\\test.csproj": {
+    "D:\\notes\\books\\.Net\\The Complete ASP.NET Core 3 API Tutorial Hands-On Building, Testing, and Deploying (Les Jackson) (z-lib.org)\\projects\\test\\webApi\\test\\test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\notes\\books\\.Net\\The Complete ASP.NET Core 3 API Tutorial Hands-On Building, Testing, and Deploying (Les Jackson) (z-lib.org)\\projects\\test\\test\\test.csproj",
+        "projectUniqueName": "D:\\notes\\books\\.Net\\The Complete ASP.NET Core 3 API Tutorial Hands-On Building, Testing, and Deploying (Les Jackson) (z-lib.org)\\projects\\test\\webApi\\test\\test.csproj",
         "projectName": "test",
-        "projectPath": "D:\\notes\\books\\.Net\\The Complete ASP.NET Core 3 API Tutorial Hands-On Building, Testing, and Deploying (Les Jackson) (z-lib.org)\\projects\\test\\test\\test.csproj",
+        "projectPath": "D:\\notes\\books\\.Net\\The Complete ASP.NET Core 3 API Tutorial Hands-On Building, Testing, and Deploying (Les Jackson) (z-lib.org)\\projects\\test\\webApi\\test\\test.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\notes\\books\\.Net\\The Complete ASP.NET Core 3 API Tutorial Hands-On Building, Testing, and Deploying (Les Jackson) (z-lib.org)\\projects\\test\\test\\obj\\",
+        "outputPath": "D:\\notes\\books\\.Net\\The Complete ASP.NET Core 3 API Tutorial Hands-On Building, Testing, and Deploying (Les Jackson) (z-lib.org)\\projects\\test\\webApi\\test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

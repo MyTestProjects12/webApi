@@ -7,4 +7,5 @@ public interface IUserRepository {
 	IEnumerable<User> GetAllUsers();
 	void DeleteUser(int UserId);
 	void UpdateUser(User user);
+	User GetUserById(int Id);
 }
